@@ -1,9 +1,11 @@
 import React from 'react'
+import {BrowserRouter as Router, Link} from 'react-router-dom'
+import {Counter} from 'counter/index'
 
 const UserDetail =()=>{
-    retrn (<>
+    return (<>
         <nav>
-          <Router>
+          <Router> 
             <Link to="/">Home</Link><br/>
             <Link to="/">Blog</Link><br/>
             <Link to="/">About Me</Link><br/>
