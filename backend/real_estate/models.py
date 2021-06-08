@@ -1,0 +1,3 @@
+class HousingDTO(object):
+
+    pass
